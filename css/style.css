@@ -40,32 +40,33 @@ html{
   border-bottom: 5px solid white;
 }
 
-.personal-image-container {
+.personal-image-container{
   border: 5px solid rgba(#ffae00, 0.764);
   padding: 0.2rem;
   border-radius: 10px 50px;
   display: inline-block;
   position: relative;
+  
 }
 
-.personal-image-container::before {
+.personal-image-container::before{
   position: absolute;
-  top: -5%;
-  left: -5%;
+  top: -1%;
+  left: -1%;
   width: 100%;
   height: 100%;
-  border: 5px solid rgba(#ffae00, 0.671);
+  border: 5px solid #ffae006a;
   border-radius: 10px 50px;
   z-index: 0;
   content: "";
 }
 .personal-image-container::after {
   position: absolute;
-  top: -8%;
-  left: -8%;
+  top: -5%;
+  left: -5%;
   width: 100%;
   height: 100%;
-  border: 5px solid rgba(#ffae00, 0.466);
+  border: 5px solid #ffae00bb;
   border-radius: 10px 50px;
   transition: 1s ease-in all;
   content: "";
